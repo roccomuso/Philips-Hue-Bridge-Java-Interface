@@ -17,7 +17,7 @@ import org.json.simple.parser.*;
  
 public class hue_json {
  
-    private static String upnp = "http://www.meethue.com/api/nupnp"; // UPNP service to get automatically hue_bridge_ip in LAN.
+    private static String upnp = "https://discovery.meethue.com/"; // UPNP service to get automatically hue_bridge_ip in LAN.
     private static String hue_bridge_ip = null;
     private static String base_url = "/api/newdeveloper/"; // User autenticated on the bridge: /newdeveloper/
  
